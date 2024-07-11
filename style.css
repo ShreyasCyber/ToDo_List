@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    background: #16191f;
+}
+
+main{
+    display: flex;
+    
+}
+
+.left{
+    width: 15%;
+    height: 100vh;
+    background: #0b0e10ba;
+}
+
+.left hr{
+    width: 265px;
+}
+
+.left img{
+    padding: 36px 0px 25px 0;
+    width: 90%;
+}
+
+
+.icons{
+    padding: 25px 60px 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.icons li{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.icons :hover{
+    transform: scale(1.2);
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+
+nav{
+    background: #070F2B;
+}
+
+.icons li svg:hover{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+
+.right{
+    width: 85%;
+    height: 100vh;
+    /* background: rgb(90, 89, 89); */
+}
+
+.right .bar{
+    padding: 25px 40px 10px 40px;
+    /* margin: 14px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.right .name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.right .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.right input{
+    border-radius: 10px;
+    height: 45px;
+    width: 450px;
+}
+
+.right span{
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

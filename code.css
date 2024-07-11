@@ -1,0 +1,104 @@
+.cards{
+    display: flex;
+    margin: 20px;
+    padding: 15px 0px 0px 50px;
+    gap: 30px;
+}
+
+.iconss{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px 0 0;
+    gap: 10px;
+}
+
+.iconss span{
+    background: #FF204E;
+    border: none;
+}
+
+.right .profile-card{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    width: 35vh;
+    height: 46vh;
+    background: forestgreen;
+}
+
+
+
+.contact-card{
+    left: 42.5vh;
+    top: 40vh;
+    position: absolute;
+    width: 61vh;
+    height: 111vh;
+    font-size: 14px;
+}
+
+.text{
+    font-weight: 500;
+}
+
+.contact-card p{
+    font-size: 12px;
+}
+
+.contact-card span{
+    border: none;
+    
+}
+
+.profile-card img{
+    border-radius: 20px;
+    padding: 10px 12px 0 10px;
+    width: 20vh;
+    margin: 18px 0px 0px 15px;
+    height: 20vh;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right .premium{
+    border-radius: 15px;
+    width: 35vh;
+    height: 35vh;
+    background: rgb(221, 197, 20);
+}
+
+.right .msg{
+    border-radius: 15px;
+    width: 92vh;
+    height: 30vh;
+    background: rgb(55, 17, 138);
+}
+
+.right .second-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right .activity{
+    display: flex;
+    gap: 15px;
+}
+
+.right .letast{
+    border-radius: 15px;
+    width: 45vh;
+    height: 51vh;
+    background: rgb(175, 19, 115);
+}
+
+.right .friends{
+    border-radius: 15px;
+    width: 45vh;
+    height: 51vh;
+    background: rgb(7, 156, 193);
+}
